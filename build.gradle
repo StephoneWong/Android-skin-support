@@ -7,6 +7,9 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        maven {
+            url 'https://jitpack.io'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
@@ -23,6 +26,9 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
             name 'Google'
+        }
+        maven {
+            url 'https://jitpack.io'
         }
     }
 }
@@ -41,7 +47,7 @@ ext {
 
     glideVersion = "4.7.1"
 
-    skinAndroidSupportVersion = "3.1.4"
+    skinAndroidSupportVersion = "3.1.5"
     skinAndroidSupportSkinGroup = "skin.support"
     skinAndroidXVersion = "4.0.4"
     skinAndroidXSkinGroup = "skin.support"
